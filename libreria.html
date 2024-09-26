@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GatoLector</title>
+        <link rel="icon" type="image/jpg" href="/Imagenes/Logo libreria.png">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/b5e0b663c1.js" crossorigin="anonymous"></script>
+        
+    </head>
+
+    <body>
+        <header>
+            <div class="container-hero">
+                <div class="container hero">
+                    <div class="container-logo">
+                        <i class="fa-sharp fa-solid fa-cat" style="color: #633232;"></i>
+                         <h1 class="logo"><a href="libreria.html">GatoLector</a></h1>
+                    </div>
+
+                    <div class="container-user">
+                        <i class="fa-sharp fa-solid fa-user" style="color: #633232;" " onclick="redirectToUser()""></i>
+                        <i class="fa-sharp fa-solid fa-cart-shopping" style="color: #633232;" onclick="redirectToCart()"></i>
+                        <div class="container-carrito">
+                            <span class="text">Carrito</span>
+                            <span class="number">(0)</span>
+                        </div>
+                    </div>
+                    
+                    <script>
+                        function redirectToCart() {
+                            window.location.href = 'carrito.html';  // Redirige a la página del carrito
+                        }
+                    </script>
+
+                    <script>
+                        function redirectToUser() {
+                            window.location.href = 'user.html';  // Redirige a la página del carrito
+                        }
+                    </script>
+                    
+                </div>
+            </div>
+
+            <div class="container-navbar">
+                <nav class="navbar container">
+                    <i class="fa-sharp fa-solid fa-bars" style="color: #633232;" id="bars-btn" ></i>
+                    <ul class="menu">
+                        <li><a href="#">PREVENTAS</a></li>
+                        <li><a href="#">Libros</a></li>
+                        <li><a href="#">Mangas</a></li>
+                        <li><a href="#">Accesorios</a></li>
+                    </ul>
+
+                    <form action="" class="search-form">
+                        <input type="search" placeholder="Buscar..."/>
+                        <button class="btn-search">
+                            <i class="fa-sharp fa-solid fa-magnifying-glass" style="color: white;" id="searchbnt"></i>
+                        </button>
+                    </form>
+                </nav> 
+            </div>
+            <section class="textos-header">
+                <h1>Bienvenido</h1>
+                <h2>Conoce nuestros últimos libros</h2>
+            </section>
+            <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,50.10 C150.00,150.33 349.20,-50.10 500.00,50.10 L500.00,150.33 L0.00,150.33 Z" style="stroke: none; fill: rgb(255, 235, 179);"></path></svg></div>
+            
+        </header>
+
+        <main>
+            <section class="books">
+                <div class="contenedor">
+                    <h2 class="titulo">BestSellers</h2>
+                    <div class="carousel-container">
+                        <button class="arrow left-arrow" >⬅</button>
+                        <div class="libros-cont">
+                            <div class="libros-ind">
+                                <img src="img/libro1.jpeg" alt="">
+                                <h3>El invierno más largo</h3>
+                                <p>By Cecilia Ekback</p>
+                                <a href="#">Agregar al carrito</a>
+                            </div>
+                            <div class="libros-ind">
+                                <img src="img/libro2.jpeg" alt="">
+                                <h3>Alas de sangre</h3>
+                                <p>By Rebeca Yarros</p>
+                                <a href="#">Agregar al carrito</a>
+                            </div>
+                            <div class="libros-ind">
+                                <img src="img/libro5.jpeg" alt="">
+                                <h3>El libro de la noche</h3>
+                                <p>By James Smith</p>
+                                <a href="#">Agregar al carrito</a>
+                            </div>
+                        </div>
+                        <button class="arrow right-arrow">➡</button>
+                    </div>
+                    
+                </div>
+            </section>
+        </main>
+       
+        <script src="script.js"></script>
+    </body>
+
+</html>

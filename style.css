@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --primary-color:#633232;
+    --background-color:rgb(255, 235, 179);
+    --dark-color:rgb(75, 75, 75);
+
+}
+
+html{
+    font-size: 62.5%;
+    font-family:'Work+Sans',sans-serif ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.container{
+    max-width: 120rem;    /* margin 8 auto*/
+    margin: 0 auto;
+}
+
+
+/*encabezado*/
+
+.container-hero{
+    background-color: var(--background-color);
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.container-logo{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.container-logo i{
+    font-size: 3rem;
+    align-items: center;
+}
+
+.container-logo h1 a{
+    text-decoration: none;
+    color: #633232;;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+
+.container-user{
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.container-user .fa-user{
+    font-size: 3rem;
+    color:var(--primary-color);
+    padding-right: 2.5rem;
+    border-right: 1px solid white;
+}
+
+.container-user .fa-cart-shopping{
+    font-size: 3rem;
+    color:var(--primary-color);
+    padding-left: 1rem;
+}
+
+.container-carrito{
+    display: flex;
+    flex-direction: colum;
+    font-size: 1.5rem;
+}
+
+
+
+.container-navbar{
+    background-color: #633232;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.navbar .fa-bars{
+    display:none;
+}
+
+.menu{
+    display: flex;
+    gap: 2rem;
+}
+
+.menu li{
+    list-style:none;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+
+}
+
+.menu a::after{
+    content: '';
+    width: 1.5rem;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    bottom:-3px;
+    left:50%;
+    transform: translate(-50%,50%);
+    opacity: 0;
+    transition: all .3s ease;
+
+}
+
+.menu a:hover::after{
+    opacity: 1;
+}
+
+.menu a:hover{
+    color: white;
+}
+
+.search-form{
+    position: relative;
+    display: flex;
+    align-items: center;
+    border:2px solid white;
+    border-radius:2rem ;
+    background-color: white;
+    height: 4.4rem;
+    overflow: hidden;
+}
+
+.search-form input{
+    outline:none;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    width: 25rem;
+    font-size: 1.5rem;
+    padding: 0 2rem;
+    color: gray;
+    cursor: pointer;
+}
+
+.search-form input ::-webkit-search-cancel-button{
+    appearance: none;
+}
+
+.search-form .btn-search{
+    border: none;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 1rem;
+}
+
+.btn-search i{
+    font-size: 2rem;
+    color: white;
+}
+
+
+/*informacion*/
+
+
+body{
+    background: var(--background-color);
+}
+
+
+.container .slider{
+    display: flex;
+    align-items: center;
+    background: var(--background-color);
+    padding: 20px;
+    width: 328px;
+    height: 400px;
+    overflow: hidden;
+    transform: translate(180px, 30px);
+}
+
+.container .slider img{
+    margin: 3px;
+}
+
+.container .control{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--background-color);
+    cursor: pointer;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.container .prev{
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container .next{
+    left: 0;
+    top: 50%;
+    transform: translate(50%, -50%);
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo {
+    color: brown;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/*Noticias*/
+
+header {
+    width: 100%;
+    height: 600px;
+    background: #D1913C;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, hsla(34, 100%, 79%, 0.4), hsla(34, 62%, 53%, 0.4)), url(img/libreria.jpg);
+background: linear-gradient(to right, hsla(34, 100%, 79%, 0.4), hsla(34, 62%, 53%, 0.4)), url(img/Libreria.jpeg);
+background-size: cover;
+background-attachment: fixed;
+position: relative;
+
+}
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1{
+    font-size: 50px;
+    color: white;
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+}
+
+.wave{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.books{
+    
+    padding: 30px;
+}
+
+.libros-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.libros-ind{
+    width: 28%;
+    text-align: center;
+}
+
+.libros-ind img{
+    width: 90%;
+}
+
+.libros-ind h3{
+    margin: 10px 0;
+}
+
+.libros-ind p{
+    font-weight: 300;
+    text-align: center;
+}
+
+.libros-ind a{
+    margin: 10px 0;
+    color: green;
+
+}
+
+.carousel-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.libros-cont {
+    display: flex;
+    overflow: hidden;
+    width: 80%; /* Ajusta según sea necesario */
+}
+
+.libros-ind {
+    flex: 0 0 200px; /* Ajusta el tamaño de cada libro */
+    margin: 0 10px;
+}
+/* ---NUEVO---- */
+.arrow {
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.left-arrow {
+    position: absolute;
+    left: 0;
+}
+
+.right-arrow {
+    position: absolute;
+    right: 0;
+}
+
+
