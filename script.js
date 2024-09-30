@@ -1,19 +1,13 @@
-const leftArrow = document.querySelector('.left-arrow');
-const rightArrow = document.querySelector('.right-arrow');
-const librosCont = document.querySelector('.libros-cont');
+const container = document.querySelector(".container");
+const btnSignIn = document.getElementById("btn-sign-in");
+const btnSignUp = document.getElementById("btn-sign-up");
 
-// Mover hacia la izquierda
-leftArrow.addEventListener('click', () => {
-    librosCont.scrollBy({
-        left: -200, // Ajusta el valor según el tamaño de cada libro
-        behavior: 'smooth'
-    });
+btnSignIn.addEventListener("click",()=>{
+    container.classList.remove("toggle");
 });
 
-// Mover hacia la derecha
-rightArrow.addEventListener('click', () => {
-    librosCont.scrollBy({
-        left: 200, // Ajusta el valor según el tamaño de cada libro
-        behavior: 'smooth'
-    });
+btnSignUp.addEventListener("click",()=>{
+    container.classList.add("toggle");
 });
+
+
