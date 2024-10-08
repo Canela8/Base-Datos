@@ -1,355 +1,273 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="estilos.css">
-<title>LAS MANGAS </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Libros</title>
 </head>
 <body>
 <header>
-<div class="logo">
-<h1>MANGAS</h1>
-<style>.modal {
-    display: none; 
-    position: fixed; 
-    z-index: 1; 
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); 
-}
-
-.modal-content {
-    background-color: #fff;
-    margin: 15% auto;
-    padding: 20px;
-    border-radius: 10px;
-    width: 80%;
-    max-width: 600px;
-    text-align: center;
-}
-
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}</style>
-
-</div>
-<nav>
-<ul>
-<li><a href="#Mangas-de-accion">Mangas de accion </a></li>
-<li><a href="#Mangas-de-romance">Mangas de romance</a></li>
-<li><a href="#Mangas-de-fantasia">Mangas de fantasia</a></li>
-<li><a href="#Mangas-aventura">Mangas de aventura</a></li>
-<li><a href="#Mangas-de-superheroe">Mangas de superheroe</a></li>
-<li>
-<form>
-<input type="search" id="busqueda" placeholder="Buscar...">
-<button type="submit">Buscar</button>
-</form>
-</li>
-</ul>
-</nav>
+    <div class="logo">
+        <h1>Libros</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#libros-de-terror">Libros de terror</a></li>
+            <li><a href="#libros-de-romance">Libros de romance</a></li>
+            <li><a href="#libros-de-suspenso">Libros de suspenso</a></li>
+            <li><a href="#libros-infantiles">Libros infantiles</a></li>
+            <li><a href="#libro-de-psicologia">Libro de psicología</a></li>
+            <li>
+                <form>
+                    <input type="search" id="busqueda" placeholder="Buscar...">
+                    <button type="submit">Buscar</button>
+                </form>
+            </li>
+        </ul>
+    </nav>
 </header>
 
-
-<section id="Mangas-de-accion">
-<h2>Mangas de accion</h2>
-<div class="libros-leidos">
-<div class="libro">
-<img src="imag/accion1.jpg" alt=""onclick="abrirModal('ATAQUE DE LOS TITANES: La humanidad vive prisionera dentro de los confines de tres murallas que la protegen de los terribles titanes Eren Yaeger un habitante del Distrito Shiganshina desea ser libre pero su mundo se desmorona cuando un enorme titán destroza parte de la Muralla María En consecuencia, los humanos son obligados a replegarse a la Muralla Rose. Transcurren tres años; Eren y sus amigos de la infancia, Mikasa y Armin, entrenaron junto con toda una generación de cadetes a fin de exterminar a los titanes, pero las cosas no serán tan fáciles ¡El Titán Colosal aparece de nuevo y abre un hueco en la Muralla Rose! ')">
-
-<h4>ATAQUE DE LOS TITANES</h4>
-<p>Autor: Hajime Isamaya</p>
-<p>⭐⭐⭐⭐⭐</p>
-<p>Precio: $100.00</p>
-<button>Agregar a carrito</button>
-</div>
-
-<div class="libro">
-<img src="imag/accion2.jpg" alt=""onclick="abrirModal('ATOM: Luego de una gran calamidad, dos genios japoneses, Umatarō Tenma y Hiroshi Ochanomizu, proyectando el futuro, trabajaron día y noche desarrollando avances en robótica. Mientras que Tenma pensaba en crear un Dios, Ochanomizu pensaba en crear un amigo. Así, nació A106, el primer robot con corazón. He aquí la historia del nacimiento del héroe eterno Atom (Astroboy), creado por los profesores Tenma y Ochanomizu en su juventud, una época en la que se dedicaban en cuerpo y alma a la investigación robótica.')">
-<h4>ATOM: THE BEGINNING </h4>
-<p>Autor:  Nacoto tezka</p>
-<p>⭐⭐⭐⭐</p>
-<p>Precio: $100.00</p>
-<button>Agregar a carrito</button>
-</div>
-
-<div class="libro">
-    <img src="imag/accion3.jpg" alt=""onclick="abrirModal('BANANA FISH: Año 1973, Vietnam. Un soldado estadounidense enloquece repentinamente luego de susurrar las palabras banana fish Año 1985, Nueva York. Ash intenta averiguar qué se esconde detrás de esas misteriosas palabras, tras las cuales parece cernirse la oscura sombra de Papa Dino, un capo mafioso del bajo mundo.')">
-    <h4>BANANA FISH  </h4>
-    <p>Autor: Akimi yoshida </p>
-    <p>⭐⭐⭐</p>
-    <p>Precio: $380.00</p>
-    <button>Agregar a carrito</button>
-    </div>
-
-    <div class="libro">
-        <img src="imag/accion4.jpg" alt=""onclick="abrirModal('BLADE OF THE IMMORTAL: Durante la era Edo de Japón, Manji, un guerrero con grandes cualidades para pelear, es conocido como el “asesino de los cien”, porque logró matar a ese número de samuráis.Yaobikuni, la anciana inmortal, es una sacerdotisa de más de 800 años que le concedió el don de la inmortalidad introduciéndole unos gusanos llamados kessenchuu, que curan cualquier herida e incluso restauran miembros amputados. Al morir su hermana, Manji desea redimir su culpa y adopta una misión: matar a 1,000 criminales. ')">
-        <h4>BLADE OF THE IMMORTAL </h4>
-        <p>Autor: Hiroaki samura</p>
-        <p>⭐⭐⭐</p>
-        <p>Precio: $400.00</p>
-        <button>Agregar a carrito</button>
-        </div>
-
+<section id="libros-de-terror">
+    <h2>Libros de terror</h2>
+    <div class="libros-leidos">
         <div class="libro">
-            <img src="imag/accion6.jpg" alt=""onclick="abrirModal('DEMON SLAYER: La historia sigue a Tanjiro Kamado, un joven que vive en el Japón feudal y cuyo mundo se desmorona cuando su familia es atacada por demonios. Todos son asesinados, excepto su hermana menor, Nezuko, quien es transformada en un demonio.A pesar de esto, Nezuko muestra signos de mantener su humanidad, lo que impulsa a Tanjiro a embarcarse en una misión para encontrar una cura para su hermana y vengar la muerte de su familia. Para lograrlo, se une a los Cazadores de Demonios, una organización dedicada a luchar contra los demonios que devoran humanos.')">
-            <h4>DEMON SLAYER </h4>
-            <p>Autor: Koyoharu gotouge</p>
+            <img src="imagenes pagina/imagen1.jpg" alt="El gran libro de Satán">
+            <h4>El gran libro de Satán</h4>
+            <p>Autor: Jorge de Cascante</p>
             <p>⭐⭐⭐⭐⭐</p>
-            <p>Precio: $450.00</p>
-            <button>Agregar a carrito</button>
-            </div>
-
-    
-</div>
-</section>
-
-
-<section id="Mangas-de-romance">
-<h2>Mangas de romance</h2>
-<div class="libros-leidos">
-<div class="libro">
-<img src="imag/romance1.jpg" alt=""onclick="abrirModal('AO NO FLAG: Un estudiante de secundaria solitario y tímido, cuya vida da un giro inesperado cuando su compañera de clase, Futaba Kuze, le pide ayuda para acercarse a Touma Mita, el popular amigo de Taichi. A medida que los tres se entrelazan en un triángulo amoroso, los sentimientos y las relaciones entre ellos se vuelven complejas. El manga explora temas como la identidad personal, la amistad, el amor no correspondido y las expectativas sociales, todo en el contexto de la juventud y los dilemas emocionales de los personajes. ')">
-<h4>AO NO FLAG</h4>
-<p>Autor: Kaitor cortázar</p>
-<p>⭐⭐⭐⭐⭐</p>
-<p>Precio: $550.00</p>
-<button>Agregar a carrito</button>
-</div>
-
-<div class="libro">
-<img src="imag/romance2.jpg" alt=""onclick="abrirModal('EDENS ZERO: Sigue a Shiki Granbell, un joven que ha crecido rodeado de robots en el planeta Granbell. Tras conocer a la aventurera espacial Rebecca y su compañero Happy, Shiki decide emprender un viaje por el universo en busca de la mítica diosa Mother, la creadora del universo. Durante su aventura, Shiki y sus amigos exploran nuevos planetas y enfrentan diversos enemigos y desafíos. El manga combina elementos de acción, humor y emoción, mientras aborda temas como la amistad, el destino y la búsqueda de la libertad. ')">
-<h4>EDENS ZERO</h4>
-<p>Autor: Hiro mashima</p>
-<p>⭐⭐⭐⭐</p>
-<p>Precio: $300.00</p>
-<button>Agregar a carrito</button>
-</div>
-
-<div class="libro">
-    <img src="imag/romance3.jpg" alt=""onclick="abrirModal('FRUITS BASKET: Una joven que, tras la muerte de su madre, se queda sin hogar y termina viviendo en una tienda de campaña. Pronto descubre que sus compañeros de clase, los miembros de la familia Sohma, están malditos: se transforman en animales del zodiaco chino cuando son abrazados por alguien del sexo opuesto. La historia explora los secretos y traumas de cada miembro de la familia, mientras Tohru intenta ayudarles a liberarse de sus maldiciones. El manga toca temas profundos como el amor, la aceptación, la superación personal y la sanación emocional. ')">
-    <h4>FRUITS BASKET</h4>
-    <p>Autor: Natzuki takaya</p>
-    <p>⭐⭐⭐⭐⭐</p>
-    <p>Precio: $200.00</p>
-    <button>Agregar a carrito</button>
-    </div>
-
-    <div class="libro">
-        <img src="imag/romance4.jpg" alt=""onclick="abrirModal('GIVEN: La historia sigue a Ritsuka Uenoyama, un talentoso guitarrista que ha perdido su pasión por la música. Sin embargo, su vida cambia cuando conoce a Mafuyu Sato, un joven con una misteriosa guitarra y una trágica historia detrás de ella. A medida que Ritsuka enseña a Mafuyu a tocar la guitarra, descubren una conexión profunda entre ellos. Junto con otros dos amigos, forman una banda. El manga explora el dolor de la pérdida, el amor entre hombres y la sanación a través de la música.')">
-        <h4>GIVEN</h4>
-        <p>Autor: Natzuki tuzo</p>
-        <p>⭐⭐⭐⭐</p>
-        <p>Precio: $230.00</p>
-        <button>Agregar a carrito</button>
+            <p>Precio: $521.00</p>
+            <button>Carrito de compra</button>
         </div>
-
         <div class="libro">
-            <img src="imag/romance5.jpg" alt=""onclick="abrirModal('INSOMNES: Dos estudiantes que sufren de insomnio crónico. Ambos descubren un lugar especial en su escuela, un observatorio abandonado, donde encuentran la paz que tanto anhelan. Lo que comienza como una amistad basada en la comprensión mutua, poco a poco se transforma en una relación más profunda mientras exploran sus sentimientos y aprenden a lidiar con sus problemas personales. La historia aborda temas como la soledad, la ansiedad y la búsqueda de consuelo en medio de las dificultades cotidianas, todo con un toque de ternura y realismo.')">
-            <h4>INSOMNES</h4>
-            <p>Autor: Makoto jiro</p>
+            <img src="imagenes pagina/libro2.jpg.jpg" alt="Carcoma">
+            <h4>Carcoma</h4>
+            <p>Autor: Layla Martínez</p>
             <p>⭐⭐⭐⭐</p>
-            <p>Precio: $380.00</p>
-            <button>Agregar a carrito</button>
-            </div>
-
-
-</div>
+            <p>Precio: $396.00</p>
+            <button>Carrito de compra</button>
+        </div>
+        <div class="libro">
+            <img src="imagenes pagina/libro3.jpg.jpg" alt="Los 13 exorcismos de Salomon Joch">
+            <h4>Los 13 exorcismos de Salomon Joch</h4>
+            <p>Autor: Paul Arquier-Parayre</p>
+            <p>⭐⭐⭐</p>
+            <p>Precio: $374.00</p>
+            <button>Carrito de compra</button>
+        </div>
+        <div class="libro">
+            <img src="imagenes pagina/libro4.jpg.jpg" alt="Mi esposa y yo compramos un rancho">
+            <h4>Mi esposa y yo compramos un rancho</h4>
+            <p>Autor: Matthew y Harrison Query</p>
+            <p>⭐⭐⭐</p>
+            <p>Precio: $400.00</p>
+            <button>Carrito de compra</button>
+        </div>
+        <div class="libro">
+            <img src="imagenes pagina/libro1.jpg.jpg" alt="La casa de las sombras">
+            <h4>La casa de las sombras</h4>
+            <p>Autor: Adam Nevill</p>
+            <p>⭐⭐⭐⭐⭐</p>
+            <p>Precio: $374.00</p>
+            <button>Carrito de compra</button>
+        </div>
+    </div>
 </section>
 
-
-<section id="Mangas-de-fantasia">
-<h2>Mangas de fantasia</h2>
-<div class="libros-leidos">
-
-<div class="libro">
-    <img src="imag/fantasia0.jpg" alt=""onclick="abrirModal('BELLE: es una obra de Mamoru Hosoda que cuenta la historia de Suzu, una joven tímida que vive en un pequeño pueblo y que encuentra consuelo en un mundo virtual llamado U, donde adopta la identidad de Belle, una cantante de renombre. A través de su música, Belle logra ganarse una gran cantidad de seguidores, pero todo cambia cuando conoce a una misteriosa criatura en U, lo que la lleva a cuestionar su identidad y a enfrentarse a sus miedos más profundos. La historia combina temas de identidad, trauma y sanación emocional, con una impresionante animación y música.')">
-<h4>BELLE</h4>
-<p>Autor: Mamoru hosoda</p>
-<p>⭐⭐⭐⭐⭐</p>
-<p>Precio: $400.00</p>
-<button>Agregar a carrito</button>
-</div>
-<div class="libro">
-    <img src="imag/fantasia2.jpg" alt=""onclick="abrirModal('BURN THE WITCH: es un manga de Tite Kubo, ambientado en Reverse London, un mundo paralelo donde los dragones son reales y forman parte de la vida cotidiana. Las protagonistas, Noel Niihashi y Ninny Spangcole, son brujas que trabajan para Wing Bind, una organización que regula la interacción entre humanos y dragones. Su misión es proteger a las personas de los peligros de estas criaturas, pero pronto se ven envueltas en un conflicto mayor que amenaza tanto el mundo real como el de Reverse London. Con un estilo dinámico y una narrativa rápida, la serie mezcla acción, fantasía y humor.')">
-    <h4>BURN THE WITCH</h4>
-    <p>Autor: Carlos Ruiz Zafón</p>
-    <p>⭐⭐⭐⭐</p>
-    <p>Precio: $600.00</p>
-    <button>Agregar a carrito</button>
-</div>
-<div class="libro">
-    <img src="imag/fantasia3.jpg" alt=""onclick="abrirModal('COWA: es una historia creada por Akira Toriyama, el autor de Dragon Ball, que sigue las aventuras de Paifu, un niño monstruo mitad vampiro, mitad hombre, y su mejor amigo, José Rodríguez, un niño fantasma. Juntos deben embarcarse en una peligrosa misión para encontrar una cura para una enfermedad que está acabando con su pueblo. En el camino, se encuentran con diversos personajes y enfrentan numerosos desafíos. Cowa combina el humor característico de Toriyama con un toque de ternura y aventura, en una historia que resalta la amistad y el trabajo en equipo.')">
-    <h4>COWA</h4>
-    <p>Autor: AKajam notu</p>
-    <p>⭐⭐⭐⭐</p>
-    <p>Precio: $100.00</p>
-    <button>Agregar a carrito</button>
-    </div>
-<div class="libro">
-        <img src="imag/fantasia4.jpg" alt=""onclick="abrirModal('CLAYMORE: es un manga oscuro y lleno de acción que narra la historia de Clare, una guerrera mitad humana y mitad yoma (demonio), perteneciente a una organización de mujeres guerreras conocidas como Claymores. Estas guerreras son las únicas capaces de enfrentarse a los yomas que aterrorizan a la humanidad. A lo largo de la serie, Clare busca venganza contra un poderoso yoma que destruyó su vida. En su viaje, conoce a otros personajes que comparten sus mismos objetivos.')">
-        <h4>CLAYMORE</h4>
-        <p>Autor: Agamita buyo</p>
-        <p>⭐⭐⭐⭐</p>
-        <p>Precio: $150.00</p>
-        <button>Agregar a carrito</button>
-        </div>
-
-<div class="libro">
-        <img src="imag/fantasia5.jpg" alt=""onclick="abrirModal('DR.SLUMP: una creación de Akira Toriyama, es una comedia que sigue las travesuras de Senbei Norimaki, un inventor excéntrico, y su creación más destacada, Arale Norimaki, una niña androide con una fuerza sobrehumana y una personalidad inocente pero caótica. La historia tiene lugar en el surrealista pueblo de Penguin Village, donde Arale y sus amigos se enfrentan a situaciones cómicas y absurdas. Con un humor exagerado y personajes extravagantes ')">
-        <h4>DR. SLUMP</h4>
-        <p>Migueta huiska</p>
-        <p>⭐⭐⭐</p>
-        <p>Precio: $140.00</p>
-        <button>Agregar a carrito</button>
-
-    
-</div>
-</section>
-
-
-<section id="Mangas-aventura">
-<h2>Mangas de aventura</h2>
-<div class="libros-leidos">
-
-<div class="libro">
-<img src="imag/aventura1.jpg" alt=""onclick="abrirModal('BRAGON BALL: es una serie icónica creada por Akira Toriyama que sigue las aventuras de Goku, un joven guerrero con habilidades extraordinarias. La historia comienza con Goku en busca de las legendarias Bolas de Dragón, que al reunirse invocan al dragón Shenlong, capaz de conceder deseos. A lo largo de su viaje, Goku forma amistades, entrena con maestros legendarios y se enfrenta a poderosos enemigos. La serie combina acción, comedia y elementos de la mitología china, estableciendo las bases de lo que sería el shōnen moderno y dejando un impacto duradero en la cultura popular mundial. ')">
-<h4>DRAGON BALL</h4>
-<p>Autor: Akima toriyama</p>
-<p>⭐⭐⭐⭐⭐</p>
-<p>Precio: $180.00</p>
-<button>Agregar a carrito</button>
-</div>
-<div class="libro">
-<img src="imag/aventura2.jpg" alt=""onclick="abrirModal('DOROHEDORO: es una obra oscura y única de Q Hayashida que se desarrolla en un mundo distópico conocido como La Ciudad, donde la magia y la violencia son moneda corriente. La historia sigue a Caiman, un hombre con cabeza de reptil que busca descubrir su verdadera identidad y el responsable de su transformación. A su lado, su amiga Nikaido, dueña de un restaurante, se involucra en la peligrosa vida de los hechiceros. La narrativa está llena de humor negro, intriga y un estilo artístico distintivo, explorando la lucha por la identidad y la búsqueda de la verdad en un entorno brutal.')">
-<h4>DOROHEDORO</h4>
-<p>Autor: Hayashida huyo</p>
-<p>⭐⭐⭐⭐</p>
-<p>Precio: $250.00</p>
-<button>Agregar a carrtio</button>
-</div>
-
-
-<div class="libro">
-    <img src="imag/aventura3.jpg" alt=""onclick="abrirModal('GOLDEN KAMUY: es un manga de Satoru Noda que combina historia, acción y humor en el contexto de la era Meiji en Japón. La trama sigue a Saichi Sugimoto, un exsoldado que se embarca en la búsqueda de un tesoro de oro escondido por los Ainu, una tribu indígena. Junto a Asirpa, una joven Ainu, enfrentan diversos peligros, incluidos otros cazadores de tesoros y la naturaleza salvaje de Hokkaido. La serie destaca por su detallada representación de la cultura Ainu y su mezcla de acción, comedia y elementos históricos, convirtiéndola en una lectura cautivadora.')">
-    <h4>GOLDEN KAMUY </h4>
-    <p>Autor: Satoro toju</p>
-    <p>⭐⭐⭐⭐⭐</p>
-    <p>Precio: $170.00</p>
-    <button>Agregar a carrito</button>
-    </div>
-
-    <div class="libro">
-        <img src="imag/aventura4.jpg" alt=""onclick="abrirModal('GRANBLUE FANTASY: es un manga basado en el popular juego de rol, que sigue las aventuras de Gran, un joven que sueña con volar entre las islas flotantes del mundo. Junto a su compañera Lyria, quien posee poderes especiales, se embarcan en una épica aventura enfrentando enemigos y descubriendo secretos ocultos. La historia presenta un vasto mundo lleno de personajes carismáticos y combates emocionantes. Con un estilo artístico impresionante, la serie combina elementos de fantasía y amistad, llevando a los lectores a un viaje lleno de magia y descubrimiento.')">
-        <h4> GRANBLUE FANTASY </h4>
-        <p>Autor: Mokoto mujery</p>
-        <p>⭐⭐⭐⭐⭐</p>
-        <p>Precio: $190.00</p>
-        <button>Agregar a carrito</button>
-        </div>
-
+<section id="libros-de-romance">
+    <h2>Libros de romance</h2>
+    <div class="libros-leidos">
         <div class="libro">
-            <img src="imag/aventura6.jpg" alt=""onclick="abrirModal('JACO: es una obra de Akira Toriyama que narra las peripecias de Jaco, un patrullero galáctico que llega a la Tierra en busca de un criminal. A pesar de su aspecto extraño y habilidades cómicas, Jaco es un guerrero valiente y decidido. Durante su estancia en el planeta, se cruza con un joven Goku y su familia, y su misión se convierte en una mezcla de humor, acción y aventuras inesperadas. La historia conecta con el universo de Dragon Ball y aporta una perspectiva divertida sobre la vida de un héroe intergaláctico en un mundo lleno de sorpresas.')">
-            <h4> JACO</h4>
-            <p>Autor: Arika toriyama</p>
-            <p>⭐⭐⭐⭐⭐</p>
-            <p>Precio: $190.00</p>
-            <button>Agregar a carrito</button>
-           
-    </div>
-    </section>
-
-    <section id="Mangas-de-superheroe">
-        <h2>Mangas de superheroe</h2>
-        <div class="libros-leidos">
-        
-        <div class="libro">
-        <img src="imag/sh1.jpg" alt=""onclick="abrirModal('SPIDERMAN: La historia sigue a Peter Parker, un estudiante de secundaria que, tras ser mordido por una araña radiactiva, adquiere habilidades sobrehumanas como la agilidad, fuerza y la capacidad de trepar paredes. Con su lema Un gran poder conlleva una gran responsabilidad, Peter se convierte en el héroe que protege Nueva York de villanos como el Duende Verde y el Doctor Octopus, mientras enfrenta los desafíos de su vida personal y su identidad secreta. La serie combina acción, drama y un fuerte sentido de la responsabilidad, convirtiendo a Spiderman en un símbolo de lucha por la justicia.')">
-        <h4>SPIDERMAN</h4>
-        <p>Autor: Stan lee</p>
-        <p>⭐⭐⭐⭐⭐</p>
-        <p>Precio: $340.00</p>
-        <button>Agregar a carrito</button>
-        </div>
-        <div class="libro">
-            <img src="imag/sh2.jpg" alt=""onclick="abrirModal('X-MEN: La historia gira en torno a los mutantes, individuos que poseen habilidades especiales, y su líder, el Profesor Charles Xavier, quien busca coexistir pacíficamente con la humanidad. En contraste, Magneto, otro mutante, aboga por la supremacía mutante. A través de sus aventuras, los X-Men enfrentan enemigos como el Club Fuego Infernal y el temido Sentinela. La serie es conocida por sus complejas relaciones entre los personajes y su comentario social sobre la tolerancia y la aceptación.')">
-            <h4>X-MEN</h4>
-            <p>Autor: Stan lee</p>
-            <p>⭐⭐⭐⭐⭐</p>
-            <p>Precio: $470.00</p>
-            <button>Agregar a carrito</button>
-            </div>
-         <div class="libro">
-            <img src="imag/sh3.jpg" alt=""onclick="abrirModal('VISION: Creado por el villano Ultron como parte de un plan para destruir a los héroes, Vision se convierte en un miembro clave de los Vengadores, aportando su inteligencia artificial, habilidades de vuelo y densidad cambiante. A medida que explora su humanidad, Vision lucha con su identidad y su deseo de comprender las emociones. La serie Vision de Tom King destaca su vida familiar con Wanda Maximoff (Scarlet Witch) y los desafíos de ser un ser sintético en un mundo humano, tocando temas de amor, pérdida y aceptación.')">
-            <h4>VISION</h4>
-            <p>Autor: Stan lee</p>
+            <img src="imagenes pagina/romance.jpg" alt="Rayuela">
+            <h4>Rayuela</h4>
+            <p>Autor: Julio Cortázar</p>
             <p>⭐⭐⭐⭐⭐</p>
             <p>Precio: $350.00</p>
-            <button>Agregar a carrito</button>
-            </div>   
-         <div class="libro">
-            <img src="imag/sh4.jpg" alt=""onclick="abrirModal('VENOM: es un villano y antiheroína del universo Marvel, conocido por su relación simbiótica con Eddie Brock. Originalmente un enemigo de Spider-Man, Venom surge cuando un simbiótico alienígena se une a Brock, otorgándole poderes similares a los de Spiderman, pero con una moralidad más oscura. Con su aspecto icónico, que incluye una lengua larga y dientes afilados, Venom se ha convertido en un personaje popular en la cultura pop, incluso teniendo su propia serie de cómics y películas. A través de sus historias, se exploran temas de redención, venganza y la lucha interna entre el bien y el mal.')">
-            <h4>VENOM</h4>
-            <p>Autor: Stan lee</p>
-            <p>⭐⭐⭐⭐⭐</p>
-            <p>Precio: $100.00</p>
-            <button>Agregar a carrito</button>
-            </div>   
-            <div class="libro">
-                <img src="imag/sh5.jpg" alt=""onclick="abrirModal('WOLWERINE: es uno de los personajes más queridos de Marvel, conocido por su ferocidad y habilidades de regeneración. Su verdadero nombre es Logan, y es un mutante con garras retráctiles de adamantium y un sentido agudo del olfato. A lo largo de su historia, Wolverine ha sido miembro de los X-Men, donde lucha por la paz entre humanos y mutantes, pero también tiene un lado oscuro debido a su pasado violento y tortuoso. Las historias de Wolverine suelen explorar temas de redención, soledad y la búsqueda de identidad, convirtiéndolo en un personaje complejo y fascinante que ha dejado una huella indeleble en el mundo del cómic.')">
-                <h4>WOLWERINE</h4>
-                <p>Autor: Stan lee</p>
-                <p>⭐⭐⭐⭐⭐</p>
-                <p>Precio: $250.00</p>
-                <button>Agregar a carrito</button>
-                </div>
-
-            </div>
-        </section>
-        
-        
-        <div id="myModal" class="modal">
-          <div class="modal-content">
-            <span class="close" onclick="cerrarModal()">&times;</span>
-            <p id="modal-texto"></p>
-          </div>
+            <button>Carrito de compra</button>
         </div>
-        
-        
-        <script>
-            function abrirModal(mensaje) {
-                var modal = document.getElementById("myModal");
-                var texto = document.getElementById("modal-texto");
-                texto.innerHTML = mensaje; 
-                modal.style.display = "block"; 
-            }
-        
-            function cerrarModal() {
-                var modal = document.getElementById("myModal");
-                modal.style.display = "none"; 
-            }
-        
-            
-            window.onclick = function(event) {
-                var modal = document.getElementById("myModal");
-                if (event.target == modal) {
-                    modal.style.display = "none";
-                }
-            }
-        </script>
-        
-        </body>
-        </html>
+        <div class="libro">
+            <img src="imagenes pagina/romance1.jpg" alt="Lo que el viento se llevó">
+            <h4>Lo que el viento se llevó</h4>
+            <p>Autor: Margaret Mitchell</p>
+            <p>⭐⭐⭐⭐</p>
+            <p>Precio: $300.00</p>
+            <button>Carrito de compra</button>
+        </div>
+        <div class="libro">
+            <img src="imagenes pagina/romance3.jpg" alt="Bajo la misma estrella">
+            <h4>Bajo la misma estrella</h4>
+            <p>Autor: John Green</p>
+            <p>⭐⭐⭐⭐⭐</p>
+            <p>Precio: $360.00</p>
+            <button>Carrito de compra</button>
+        </div>
+        <div class="libro">
+            <img src="imagenes pagina/romance4.jpg" alt="Yo, tú y un quizás">
+            <h4>Yo, tú y un quizás</h4>
+            <p>Autor: María Martínez</p>
+            <p>⭐⭐⭐⭐</p>
+            <p>Precio: $343.00</p>
+            <button>Carrito de compra</button>
+        </div>
+        <div class="libro">
+            <img src="imagenes pagina/romance5.jpg" alt="El faro de los amores dormidos">
+            <h4>El faro de los amores dormidos</h4>
+            <p>Autor: Andrea Longarela</p>
+            <p>⭐⭐⭐⭐</p>
+            <p>Precio: $335.00</p>
+            <button>Carrito de compra</button>
+        </div>
+    </div>
+</section>
+
+<section id="libros-de-suspenso">
+    <h2>Libros de suspenso</h2>
+    <div class="libros-leidos">
+        <div class="libro">
+            <img src="imagenes pagina/suspenso1.jpg" alt="La verdad sobre el caso Harry Quebert">
+            <h4>La verdad sobre el caso Harry Quebert</h4>
+            <p>Autor: Joël Dicker</p>
+            <p>⭐⭐⭐⭐⭐</p>
+            <p>Precio: $288.00</p>
+            <button>Carrito de compra</button>
+        </div>
+        <div class="libro">
+            <img src="imagenes pagina/suspenso2.jpg" alt="La sombra del viento">
+            <h4>La sombra del viento</h4>
+            <p>Autor: Carlos Ruiz Zafón</p>
+            <p>⭐⭐⭐⭐</p>
+            <p>Precio: $334.00</p>
+            <button>Carrito de compra</button>
+        </div>
+        <div class="libro">
+            <img src="imagenes pagina/suspenso3.jpg" alt="El silencio de la ciudad blanca">
+            <h4>El silencio de la ciudad blanca</h4>
+            <p>Autor: Eva García Sáenz de Urturi</p>
+            <p>⭐⭐⭐⭐</p>
+            <p>Precio: $452.00</p>
+            <button>Carrito de compra</button>
+        </div>
+        <div class="libro">
+            <img src="imagenes pagina/suspenso4.jpg" alt="Asesinato en el Orient Express">
+            <h4>Asesinato en el Orient Express</h4>
+            <p>Autor: Agatha Christie</p>
+            <p>⭐⭐⭐⭐</p>
+            <p>Precio: $150.00</p>
+            <button>Carrito de compra</button>
+        </div>
+        <div class="libro">
+            <img src="imagenes pagina/suspenso5.jpg" alt="La princesa de hielo">
+            <h4>La princesa de hielo</h4>
+            <p>Autor: Camilla Läckberg</p>
+            <p>⭐⭐⭐</p>
+            <p>Precio: $140.00</p>
+            <button>Carrito de compra</button>
+        </div>
+    </div>
+</section>
+
+<section id="libros-infantiles">
+    <h2>Libros infantiles</h2>
+    <div class="libros-leidos">
+        <div class="libro">
+            <img src="imagenes pagina/infantil4.jpg" alt="Tú eres el detective con Los Buscapistas">
+            <h4>Tú eres el detective con Los Buscapistas</h4>
+            <p>Autor: Teresa Blanch</p>
+            <p>⭐⭐⭐⭐⭐</p>
+            <p>Precio: $146.00</p>
+            <button>Carrito de compra</button>
+        </div>
+        <div class="libro">
+            <img src="imagenes pagina/infantil3.jpg" alt="Aprendiz de detective">
+            <h4>Aprendiz de detective</h4>
+            <p>Autor: Emmanuel Trédez</p>
+            <p>⭐⭐⭐⭐</p>
+            <p>Precio: $135.00</p>
+            <button>Carrito de compra</button>
+        </div>
+        <div class="libro">
+            <img src="imagenes pagina/infantil1.jpg" alt="La vuelta al mundo en 80 días">
+            <h4>La vuelta al mundo en 80 días</h4>
+            <p>Autor: Sandra Leal</p>
+            <p>⭐⭐⭐⭐</p>
+            <p>Precio: $200.00</p>
+            <button>Carrito de compra</button>
+        </div>
+        <div class="libro">
+            <img src="imagenes pagina/infantil2.jpg" alt="La isla misteriosa ">
+            <h4>La isla misteriosa </h4>
+            <p>Autor: Anna Llenas</p>
+            <p>⭐⭐⭐⭐⭐</p>
+            <p>Precio: $187.00</p>
+            <button>Carrito de compra</button>
+        </div>
+        <div class="libro">
+            <img src="imagenes pagina/infantil.jpg" alt="El principe feliz">
+            <h4>El principe feliz</h4>
+            <p>Autor: Horacio Quiroga</p>
+            <p>⭐⭐⭐⭐</p>
+            <p>Precio: $220.00</p>
+            <button>Carrito de compra</button>
+        </div>
+    </div>
+</section>
+
+<section id="libro-de-psicologia">
+    <h2>Libro de psicología</h2>
+    <div class="libros-leidos">
+        <div class="libro">
+            <img src="imagenes pagina/spi5.jpg" alt="El lado B de las emociones">
+            <h4>El lado B de las emociones</h4>
+            <p>Autor: Eduardo Calixto</p>
+            <p>⭐⭐⭐⭐⭐</p>
+            <p>Precio: $324.00</p>
+            <button>Carrito de compra</button>
+        </div>
+        <div class="libro">
+            <img src="imagenes pagina/spi4..jpg" alt="Microtraumas">
+            <h4>Microtraumas</h4>
+            <p>Autor: Meg Arroll</p>
+            <p>⭐⭐⭐⭐⭐</p>
+            <p>Precio: $369.00</p>
+            <button>Carrito de compra</button>
+        </div>
+        <div class="libro">
+            <img src="imagenes pagina/spi3.jpg" alt="Transforma las heridas de tu infancia">
+            <h4>Transforma las heridas de tu infancia</h4>
+            <p>Autor: Anamar Orihuela</p>
+            <p>⭐⭐⭐⭐⭐</p>
+            <p>Precio: $191.00</p>
+            <button>Carrito de compra</button>
+        </div>
+        <div class="libro">
+            <img src="imagenes pagina/spi2.jpg" alt="Este dolor no es mío">
+            <h4>Este dolor no es mío</h4>
+            <p>Autor: Mark Wolynn</p>
+            <p>⭐⭐⭐⭐⭐</p>
+            <p>Precio: $310.00</p>
+            <button>Carrito de compra</button>
+        </div>
+        <div class="libro">
+            <img src="imagenes pagina/spi1.jpg" alt="No te creas todo lo que piensas">
+            <h4>No te creas todo lo que piensas</h4>
+            <p>Autor: Joseph Nguyen</p>
+            <p>⭐⭐⭐⭐⭐</p>
+            <p>Precio: $250.00</p>
+            <button>Carrito de compra</button>
+        </div>
+    </div>
+</section>
+
+
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3 id="titulo-libro"></h3>
+        <p id="biografia-libro"></p>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
+
